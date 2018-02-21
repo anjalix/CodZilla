@@ -1,0 +1,21 @@
+//http://www.codzilla.org.in/questions?qid=31
+
+Complete the function to check whether the parameter to the function is even.
+The function should accept an integer parameter i.
+For even parameter return 1 else return 0.
+/*
+ * The isEven function returns 1 if input parameter is even, Otherwise it returns 0
+ * The function should accept an integer parameter i
+ */
+int isEven(int i)
+{
+
+/* Write Code to return whether the parameter i is even here */
+
+if(i%2==0)
+return 1;
+else return 0;
+
+
+
+}
