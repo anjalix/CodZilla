@@ -1,0 +1,22 @@
+//http://www.codzilla.org.in/questions?qid=14
+
+
+float incomeTax(int ti)
+{
+
+/* Write code to compute and return Income Tax based on taxable income variable ti */
+
+/* Write code to compute and return Income Tax based on taxable income variable ti */
+float iTax=0;
+
+if(ti<=150000) {return 0;}
+if(ti>150000 && ti<=300000) {iTax= (ti-150000)*0.1;}
+if(ti>300000 && ti<=800000) {iTax= (ti-300000)*0.2 + (300000-150000)*0.1;}
+if(ti>800000) {iTax+= (ti-800000)*0.3 + (800000-300000)*0.2 + (300000-150000)*0.1;}
+if(ti>=5000000) {iTax=1.1*iTax;}
+return iTax;
+
+
+
+
+}
