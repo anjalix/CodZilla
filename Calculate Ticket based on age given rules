@@ -1,0 +1,22 @@
+
+//http://www.codzilla.org.in/questions?qid=21
+
+Calculate Ticket based on age given rules authored by Avinash Awate
+
+Cost of a rail ticket for child less than 12 years is Rs. 10.
+For senior citizens (attaining age 60) the rail ticket cost is RS. 15.
+For everyone else it is Rs. 20.
+Write code which computes the ticket cost in variable cost when variable a contains age
+int a;  /* Age of person travelling by rail */
+int cost;  /* Cost of rail ticket for person of age (variable) a */
+
+/* Write code to compute and return ticket Cost based on age variable a */
+
+if(a<12)
+ {cost=10;}
+else if(a>=60) {cost=15;}
+else cost=20;
+
+
+ 
+ Wow! Your solution is 100% correct!
