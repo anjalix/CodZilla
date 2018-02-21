@@ -1,0 +1,31 @@
+//http://www.codzilla.org.in/questions?qid=22
+
+
+
+Cost of a rail ticket for child less than 12 years is Rs. 10.
+For senior citizens (attaining age 60) the rail ticket cost is RS. 15.
+For everyone else it is Rs. 20.
+Write a function ticketCost which computes and returns the ticket cost when age is passsed as a parameter.
+/*
+ * The function ticketCost accepts an integer a (age of a person)
+ * It computes and returns the cost of a rail ticket based on the age
+ * For children less than 12, ticket cost is 10
+ * For adults the ticket cost is 20
+ * For senior citizens (attaining age 60) the ticket cost is 15
+ * The function returns the computed ticket cost
+ */
+int ticketCost(int a)
+{
+
+/* Write code to compute and return ticket Cost based on age variable a */
+int cost;
+if(a<12)
+ {cost=10;}
+else if(a>=60) {cost=15;}
+else cost=20;
+return cost;
+
+
+}
+ 
+ Wow! Your solution is 100% correct!
