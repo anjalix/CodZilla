@@ -1,0 +1,25 @@
+//Calculate FD Int. rate given age, duration, rules
+//http://www.codzilla.org.in/questions?qid=15
+
+int a;  /* Age of depositor */
+int d;  /* duration of deposit in days */
+float iRate;  /* Computed interest rate */
+
+/* Write code to compute and return fixed deposit interest rate based on age variable a and duration variable d */
+
+iRate=6.0;
+if(d>=30 && d<=60) {iRate=6.5;}
+else if(d>60)
+{
+d=d-60;
+iRate=6.5;
+while(d>0 && iRate<8.0)
+{
+d=d-30;
+iRate+=0.25;
+}
+
+}
+
+if(a>=60)
+iRate+=0.5;
