@@ -1,0 +1,23 @@
+//http://www.codzilla.org.in/questions?qid=23
+
+
+Complete the function to return the absolute value of a number.
+The function should accept an integer parameter i.
+The function should return the absolute value of i.
+/*
+ * The absolute function returns the absolute value of input parameter i
+ * The function should accept an integer parameter i
+ */
+int absolute(int i)
+{
+
+/* Write Code to return the absolute value of the parameter i */
+
+if(i<0)
+i*=-1;
+return i;
+
+
+
+}
+ 
