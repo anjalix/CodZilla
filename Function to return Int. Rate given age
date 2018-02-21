@@ -1,0 +1,21 @@
+//http://www.codzilla.org.in/questions?qid=18
+
+
+Fixed deposit interest rate for a senior citizen (attaining age 60) is 0.5% more than others
+The fixed deposit interest rate for others is 8.25% per annum
+Write a function interestRate which computes and returns the fixed deposite interest rate when age is passed as a parameter.
+/*
+ * The function interestRate accepts an integer a (age of a person)
+ * It computes and returns the fixed deposit interest rate based on the age
+ * Fixed deposit interest rate for a senior citizen (attaining age 60) is 0.5% more than others
+ * The fixed deposit interest rate for others is 8.25% per annum
+ */
+float interestRate(int a)
+{
+
+float rate=8.25;
+if(a>=60) rate+=0.5;
+
+return rate;
+
+}
