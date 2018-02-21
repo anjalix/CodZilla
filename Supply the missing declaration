@@ -1,0 +1,12 @@
+// http://www.codzilla.org.in/questions?qid=1
+
+
+
+int main() 
+{ 
+
+int t; //to add
+
+    t = 5;
+    return(0);
+}
