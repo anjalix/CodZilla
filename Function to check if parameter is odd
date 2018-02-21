@@ -1,0 +1,23 @@
+// Function to check if parameter is odd
+
+
+Complete the function to check whether the parameter to the function is odd.
+The function should accept an integer parameter i.
+For odd parameter return 1 else return 0.
+/*
+ * The isOdd function returns 1 if input parameter is odd, Otherwise it returns 0
+ * The function should accept an integer parameter i
+ */
+int isOdd(int i)
+{
+
+/* Write Code to return whether the parameter i is odd here */
+
+if(i%2==0)
+{
+return 0;
+}
+else return 1;
+
+
+}
