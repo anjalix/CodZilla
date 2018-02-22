@@ -1,0 +1,27 @@
+//http://www.codzilla.org.in/questions?qid=99
+
+Based on taxable income, the Income Tax is computed as follows:
+    Below : 150000     No tax
+    Between 150000 and 300000  10% tax
+    Between 300000 and 800000  20% tax
+    Above 800000   30% Tax
+    Super Rich surcharge at 10% of tax if taxable income is equal to or above 5000000
+Write code which calculates and stores income tax in variable iTax based on taxable income given in integer ti.
+int ti;  /* Taxable income of tax payer */
+float iTax;  /* Variable to store calculated Income Tax */
+
+/* Write code to compute and store Income Tax in variable iTax based on taxable income variable ti */
+
+int limit=150000;
+iTax=0;
+if(ti>limit && ti<=300000) {iTax= (ti-limit)*0.1;}
+if(ti>300000 && ti<=800000) {iTax= (ti-300000)*0.2 + (300000-limit)*0.1;}
+if(ti>800000) {iTax+= (ti-800000)*0.3 + (800000-300000)*0.2 + (300000-limit)*0.1;}
+if(ti>=5000000) {iTax=1.1*iTax;}
+
+
+
+ 
+
+ 
+ Wow! Your solution is 100% correct!
