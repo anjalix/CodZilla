@@ -1,0 +1,11 @@
+//http://www.codzilla.org.in/questions?qid=223
+
+Provide the missing declaration based on the assignment statement
+int main()
+{
+
+unsigned int t;
+
+    t = 5u;
+    return(0);
+}
