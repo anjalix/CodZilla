@@ -1,0 +1,27 @@
+//Recursive function to calculate factorial
+
+
+Write a recursive function to find factorial of a given number.
+The function accepts an integer parameter n.
+The function returns the factorial of the number n.
+The function returns 0 for a negative or 0 input.
+/*
+ * The calculateFactorial function accepts a single integer n as input and returns the factorial
+ * It calculates factorial using a recursive algorithm
+ * It finally returns the recursively calculated factorial
+ * It returns 0 for invalid input (0 and -ve number)
+ * Iteration   : factorial(n) = n * factorial(n-1).
+ * Termination : fatorial(1) = 1.
+ */
+int calculateFactorial(int n)
+{
+
+if(n<=0) return 0;
+if(n==1) return 1;
+else return calculateFactorial(n-1)*n;
+
+}
+ 
+ Wow! Your solution is 100% correct!
+ 
+ //http://www.codzilla.org.in/questions?qid=96
