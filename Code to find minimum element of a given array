@@ -1,0 +1,19 @@
+//
+
+Write Code to find minimum element of an array.
+int  e;  /* Number of elements in array */
+int *a;  /* Array of elements for which minimum has to be found */
+int  min;  /* Variable to store minimum element found */
+
+/* Write code to find and store minimum value in variable min here */
+min=*a;
+while(e--)
+{
+if(min>*a) {min=*a;}
+a++;
+}
+
+
+
+ 
+ Wow! Your solution is 100% correct!
