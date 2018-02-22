@@ -1,0 +1,51 @@
+//http://www.codzilla.org.in/questions?qid=92
+
+
+One can classify people on their height from the following table (different for men and women).
+               Code  Men    Women
+    Very Tall  "VT"  183     175
+    Tall        "T"  175     168
+    Medium      "M"  168     160
+    Short       "S"  152     145
+    Very Short "VS" <152    <145
+Write code which determines the height code and stores it in variable hCode
+    gender is in variable male (1 if male, 0 if female)
+    height (in cms) is in variable h
+int male;  /* Gender : 1 if male, 0 if female */
+int h;  /* Height in cms */
+char *hCode;  /* Variable where height code is to be stored */
+    hCode = "VS";
+
+/* Write code (including new variables) to store grade based on on number of subjects and the total marks */
+/* Write code (including new variables) to store grade based on on number of subjects and the total marks */
+char* height(int male, int h)
+{
+if(male==1)
+{
+if(h>=183) {return "VT"; }
+else if(h>=175) {return "T"; }
+else if(h>=168) {return "M"; }
+else if(h>=152) {return "S"; }
+else  {return "VS"; }
+}
+else
+{
+
+if(h>=175) {return "VT"; }
+else if(h>=168) {return "T"; }
+else if(h>=160) {return "M"; }
+else if(h>=145) {return "S"; }
+else  {return "VS"; }
+
+
+
+}
+
+}
+hCode=height(male,h);
+
+
+
+
+ 
+ Wow! Your solution is 100% correct!
