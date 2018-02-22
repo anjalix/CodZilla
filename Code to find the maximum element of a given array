@@ -1,0 +1,23 @@
+//http://www.codzilla.org.in/questions?qid=47
+
+
+Write Code to find and return maximum element of an array.
+int  e;  /* Number of Elements in Array */
+int *a;  /* Array of Elements for which maximum element is to be found */
+int  max;  /* Variable to find and store maximum element */
+
+/* Write code (including variables if required) to calculate the maximum value and store in variable max here */
+
+max=*a;
+while(e--)
+{
+if(*a>max){max=*a;}
+a++;
+}
+
+
+
+
+
+ 
+ Wow! Your solution is 100% correct!
