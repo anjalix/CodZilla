@@ -1,0 +1,29 @@
+//http://www.codzilla.org.in/questions?qid=48
+
+Code function calculateMaximum to find and return maximum element of an array.
+The function accepts the number of elements and an array of integers as parameters.
+It returns the maximum element from the given array.
+  
+/*  
+ * The calculateMaximum Function accepts the number of elements (e) and an array of integers (a) as parameters
+ * It finds and returns the maximum element from the given array
+ */     
+int calculateMaximum(int e, int *a)
+{   
+
+/* Write code to calculate and return the maximum value here */
+int max=*a;
+while(e--)
+{
+if(*a>max)
+{
+max=*a;
+}
+a++;
+}
+return max;
+
+
+
+
+}
