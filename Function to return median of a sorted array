@@ -1,0 +1,29 @@
+//http://www.codzilla.org.in/questions?qid=52
+
+Code function calculateMedian to find and return Median of all elements of a sorted array.
+The function should accept the number of elements and an array of integers as parameters.
+median is the value of the element residing in the middle when the elements are sorted.
+In case the array has even elements the median is the average of the two center elements.
+It should return the Median of all the elements of the given sorted array.
+  
+/*      
+ * The calculateMedian Function accepts the number of elements (e) and a sorted array of integers (a) as parameters
+ * It finds and returns the Median of all the elements of the given sorted array
+ */ 
+float calculateMedian(int e, int *a)
+{
+
+/* Write code to calculate and return the median value here */
+int mid=e/2;
+float median;
+if(e%2==0) {  median= *(a+mid) + *(a+mid-1); median=median/2; }
+else {median=*(a+mid);}
+
+return median;
+
+
+
+
+}
+ 
+ Wow! Your solution is 100% correct!
