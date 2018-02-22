@@ -1,0 +1,47 @@
+
+
+/*
+Based on taxable income, the Income Tax is computed as follows:
+    Below : 150000    (180000 for senior citizens on attaining age 60) No tax
+    All income Between 150000 (180000 for senior citizens) and 300000  10% tax
+    All income Between 300000 and 800000  20% tax
+    All income Above 800000   30% Tax
+    Super Rich surcharge at 10% of tax if taxable income is on or above 5000000
+Write code which computes and stores Income Tax in variable iTax based on integer a (age) and integer ti (taxable income).
+*/
+/*
+ * The function incomeTax accepts integer a (age of a person) and integer ti (taxable income)
+ * It computes and returns the Income Tax based on the age and taxable income
+ * Based on taxable income, the Income Tax is computed as follows:
+ *     Below : 150000    (180000 for senior citizens) No tax
+ *     All income Between 150000 (180000 for senior citizens) and 300000  10% tax
+ *     All income Between 300000 and 800000  20% tax
+ *     All income Above 800000   30% Tax
+ *     Super Rich surcharge at 10% of tax on taxable income is on or above 5000000
+ */
+float incomeTax(int a, int ti)
+{
+float iTax;  /* Computed interest rate */
+
+/* Write code to compute and return Income Tax based on age variable a and taxable income variable ti */
+int limit=150000;
+if(a>=60) {limit=180000;}
+iTax=0;
+
+if(ti>limit && ti<=300000) {iTax= (ti-limit)*0.1;}
+
+if(ti<=800000 && ti>300000) {iTax= (300000-limit)*0.1 + (ti-300000)*0.2;}
+
+if( ti>800000) {iTax= (300000-limit)*0.1 + (800000-300000)*0.2 + (ti-800000)*0.3;}
+
+if(ti>5000000) {iTax=1.1*iTax;}
+
+
+
+
+
+return(iTax);
+}
+ 
+ Wow! Your solution is 100% correct!
+Contact Us
