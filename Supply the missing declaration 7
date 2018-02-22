@@ -1,0 +1,11 @@
+//http://www.codzilla.org.in/questions?qid=227
+
+Provide the missing declaration based on the assignment statement
+int main()
+{
+
+double long t;
+
+    t = 5.0L;
+    return(0);
+}
