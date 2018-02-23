@@ -1,0 +1,36 @@
+//http://www.codzilla.org.in/questions?qid=25
+
+Complete the reverseInteger function to reverse 32 bit of the integer operand and return the integer with reversed bits.
+The function should accept a 32 bit integer parameter i.
+The function should return the integer with reversed bits.
+Integer with bit sequence 101100......110010 will become 010011......001101
+/*
+ * The reverseInteger function returns a 32 bit integer with reversed bits
+ * The function should accept an integer parameter i
+ * Integer with bit sequence 101100......110010 will become 010011......001101
+ */
+int reverseInteger(int i)
+{
+
+/* Write Code to return the reversed bits of the parameter i */
+int count=32;
+int ans;
+int last=0;
+while(count--)
+{
+last=i&1;
+i=i>>1;
+ans=ans<<1;
+ans=ans|last;
+
+
+}
+return ans;
+
+
+
+
+
+}
+ 
+ Wow! Your solution is 100% correct!
