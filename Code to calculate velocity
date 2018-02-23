@@ -1,0 +1,15 @@
+//http://www.codzilla.org.in/questions?qid=73
+
+Write code to calculate velocity by the formula (u + a times t).
+The code should accept values of initial velocity u, acceleration a, and time t as parameters.
+The code should return the value of calculated velocity in variable v.
+float u;  /* Has value of initial velocity */
+float a;  /* Has value of acceleration */
+float t;  /* Has value of time */
+float v;  /* To store value of calculated final velocity */
+/* Write code to calculate and store value of velocity in variable v here */
+
+v=u+a*t;
+
+
+Wow! Your solution is 100% correct!
