@@ -1,0 +1,16 @@
+//http://www.codzilla.org.in/questions?qid=79
+
+
+
+Write code to add two times variable a to three times variable b and multiply the sum by variable c.
+The calulated result should be stored in variable result.
+int a;
+int b;
+int c;
+int result;  /* To store the calculated result */
+/* Write code to add two times variable a to three times variable b and multiply the sum by variable c and store the result */
+
+
+result= (2*a +3*b)*c;
+
+Wow! Your solution is 100% correct!
