@@ -1,0 +1,25 @@
+//http://www.codzilla.org.in/questions?qid=76
+
+
+
+Complete function calculateVelocitySquare to calculate square of velocity by the formula (square of u +  2 times a times s).
+The function should accept values of initial velocity u, acceleration a, and distance s as parameters.
+The function should return the value of calculated square of velocity.
+/*
+ * The function calculateVelocitySquare calculates square of velocity by the formula (square of u +  2 times a times s)
+ * The function accepts values of initial velocity u, acceleration a, and distance s as parameters
+ * The function returns the value of calculated square of velocity
+ */
+float calculateVelocitySquare(float u, float a, float s)
+{
+/* Write code to compute and return value of square of final velocity here */
+float sqv= (u*u)+(2*a*s);
+return sqv;
+
+
+
+
+}
+
+
+Wow! Your solution is 100% correct!
