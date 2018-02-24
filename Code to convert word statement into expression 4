@@ -1,0 +1,12 @@
+//http://www.codzilla.org.in/questions?qid=78
+
+Write code to subtract four times variable b from three times variable a.
+The calulated result should be stored in variable result.
+int a;
+int b;
+int result;  /* To store the calculated result */
+/* Write code to subtract four times variable b from three times variable a and store in result here */
+result= 3*a-4*b;
+
+
+Your code compiled successfully!
