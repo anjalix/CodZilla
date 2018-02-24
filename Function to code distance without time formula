@@ -1,0 +1,20 @@
+//
+http://www.codzilla.org.in/questions?qid=72
+
+Complete function calculateDistance to calculate distance by the formula ((square of v - square of u) / (2 times a)).
+The function accepts values of final velocity v, initial velocity u and acceleration as parameters
+The function should return the value of calculated distance.
+/*
+ * The function calculateDistance calculates distance by the formula ((square of v - square of u) / (2 times a))
+ * The function accepts values of final velocity v, initial velocity u and acceleration as parameters
+ * The function returns the value of calculated distance
+ */
+float calculateDistance(float v, float u, float a)
+{
+/* Write code to compute and return value of distance here */
+float s=(((v+u)*(v-u))/(2*a));
+
+return s;
+
+}
+Wow! Your solution is 100% correct!
