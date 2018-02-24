@@ -1,0 +1,22 @@
+//http://www.codzilla.org.in/questions?qid=83
+
+Write a function to calculate simple interest.
+The function calculateSimpleInterest should accept principle, time (in months) and rate of interest (per cent per annum) as parameters.
+The function should calulate and return the simple interest.
+The simple interest should be calculated on whole months (partial months ignored).
+/*
+ * The function calculateSimpleInterest accepts the principle, time (in months) and rate of interest (per cent per annum) as parameters
+ * The function should calulate and return the simple interest
+ * The simple interest should be calculated on whole months (partial months ignored)
+ */
+float calculateSimpleInterest(float p, float m, float r) 
+{ 
+/* Write code to calculate and return simple interest here */
+int t=m;
+float si= (p*r*t)/1200;
+
+return si;
+
+
+}
+Wow! Your solution is 100% correct!
